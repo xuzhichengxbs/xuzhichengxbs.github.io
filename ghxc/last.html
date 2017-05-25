@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			#aa{
+				width: 400px;
+				height: 600px;
+				background: url(img/bg3.jpg)no-repeat;
+				background-size:400px 600px ;
+				margin: 0 auto;
+				position: relative;
+			}
+			.bb{
+				width: 215px;
+				height: 410px;
+				background: url(img/p3_title.png);
+				background-size:215px 410px ;
+				position: absolute;
+				top:45px;
+				left:95px;
+				animation: bb 3s infinite 0s linear alternate;
+			}
+			@keyframes bb{
+				from{
+					opacity: 1;
+				}
+				to{
+					opacity: 0;
+				}
+			}
+			.cc{
+				width: 102px;
+				height: 320px;
+				background: url(img/p3_couplet_first.png)no-repeat;
+				background-size: 102px 320px;
+				position: absolute;
+				top: 95px;
+				left: 0px;
+				opacity: 0;
+				animation: cc 3s infinite  linear alternate;
+			}
+			@keyframes cc{
+				from{
+					opacity: 0;
+				}
+				to{
+					opacity: 1;
+				}
+			}
+			.dd{
+				width: 102px;
+				height: 320px;
+				background:url(img/p3_couplet_second.png)no-repeat;
+				background-size: 102px 320px;
+				position: absolute;
+				top: 95px;
+				right: 0px;
+				opacity: 0;
+				animation: dd 3s infinite  linear alternate;
+			}
+			@keyframes dd{
+				from{
+					opacity: 0;
+				}
+				to{
+					opacity: 1;
+				}
+			}
+			.ee{
+				width: 103px;
+				height: 103px;
+				position: absolute;
+				bottom: 15px;
+				left: 150px;
+				background: url(img/p3_blessing.png)no-repeat;
+				background-size:103px 103px ;
+				animation: ee 5s infinite 0s linear;
+			}
+			@keyframes ee{
+				0%{
+					transform: rotate(0deg);
+					opacity: 0;
+				}
+				50%{
+					transform: rotate(360deg);
+					opacity: 1;
+				}
+				100%{
+					transform: rotate(720deg);
+					opacity: 0;
+				}
+			}
+		</style>
+	</head>
+	<body>
+		<div id="aa">
+			<div class="bb">
+				
+			</div>
+			<div class="cc">
+				
+			</div>
+			<div class="dd">
+				
+			</div>
+			<div class="ee">
+				
+			</div>
+		</div>
+	</body>
+</html>

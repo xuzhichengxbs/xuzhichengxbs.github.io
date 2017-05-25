@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			#bb{
+				width: 100%;
+				height: 600px;
+				background: greenyellow;
+			}
+			#aa{
+				width: 400px;
+				height: 600px;
+				background: url(img/p1_lantern.png) no-repeat 55px -110px,green;
+				margin: 0 auto;
+				position: relative;
+			}
+			.aaa{
+				width: 75px;
+				height: 75px;
+				background: url(img/music_disc.png);
+				position: absolute;
+				right: 0px;
+				animation: bb 2s infinite linear;
+			}
+			@keyframes bb{
+				from{
+					transform: rotate(0deg);
+				}
+				to{
+					transform: rotate(360deg);
+				}
+			}
+			.aaaa{
+				width: 27px;
+				height: 43px;
+				background: url(img/music_pointer.png);
+				position: absolute;
+				top:23px;
+				right:15px ;
+			}
+			.bbb{
+				width: 210px;
+				height: 210px;
+				border: 1px solid #e7e7e7;
+				background: red;
+				border-radius: 150px;
+				position: absolute;
+				top: 155px;
+				left: 93px;
+				animation: aa 1s linear 0s infinite alternate;
+			}
+			@keyframes  aa{
+					from{
+						transform: scale(1);
+					}
+					to{
+						transform: scale(1.3);
+					}
+			}
+			.bbb a{
+				font-size: 47px;
+				text-decoration: none;
+				color: gold;
+				font-family: "宋体";
+				display: block;
+				margin: 53px 0px 0px 20px;
+			}
+			.ccc{
+				width: 177px;
+				height: 212px;
+				background: url(img/p1_imooc.png);
+				position: absolute;
+				bottom: 0px;
+				left: 105px;
+				animation: ss 0.5s infinite linear alternate;
+			}
+			@keyframes ss{
+				from{
+					transform: rotate(70deg);
+				}
+				to{
+					transform: rotate(-70deg);
+				}
+			}
+		</style>
+	</head>
+	<body>
+		<div id="bb">
+			<div id="aa">
+				<div class="aaa">
+					
+				</div>
+				<div class="aaaa">
+						
+				</div>
+				<div class="bbb">
+					<a href="second.html">点击开始新时代</a>
+				</div>
+				<div class="ccc">
+			
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
